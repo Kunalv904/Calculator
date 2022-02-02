@@ -1,0 +1,43 @@
+body{
+  text-align: center;
+  background-color: #ccb9ce;
+}
+h6{
+  text-align: left;
+}
+h2{
+  margin: 6% 2%;
+}
+h4{
+  padding-top: 15%;
+}
+.calc{
+  background-color: white;
+  opacity: 0.7;
+  padding-top: 1%;
+  width: 30%;
+  border-radius: 10px;
+  margin: 100px auto;
+  box-shadow: -20px -20px 2px grey;
+}
+.below-calculator{
+  padding: 23% 1% 1%;
+}
+
+.display{
+  text-align: right;
+  line-height: 2;
+  padding: 0 6% 0 0;
+  margin-bottom: 7%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  overflow: auto;
+}
+.big-boxes{
+  padding: 35% 0;
+}
+.number:hover , .pressed{
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
